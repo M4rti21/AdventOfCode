@@ -129,10 +129,4 @@ function check(map: M): Comp[][] {
     return lists;
 }
 
-function print(map: M) {
-    for (const v of map.values()) {
-        console.log(v.toString());
-    }
-}
-
 console.log(performance.now() - start + "ms");
